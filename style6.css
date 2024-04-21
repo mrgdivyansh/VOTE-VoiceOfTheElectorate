@@ -1,0 +1,52 @@
+#form{
+    width: 45%;
+    margin: auto;
+    display: block;
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 6%;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 13em;
+    font-weight: bold;
+    cursor: pointer;
+}
+fieldset{
+    border-radius: 15px 15px 15px 15px;
+    /* background: url(https://images.unsplash.com/photo-1598802777393-751e5387ecd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHZvdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #004b96;
+}
+label{
+    font-weight: bold;
+    display: inline-block;
+    margin: 2px;
+}
+input[type=date],[type=number],[type=text],[type=data]{
+    background: #fff;
+    border: 1px solid #0000;
+    border-radius: 2px;
+    border-width: 1px;
+    color: #36454b;
+    font-size: 14px;
+    margin: 12px 12px;
+    padding: 12px 12px;
+    display: inline-block;
+}
+input[type=radio].g{
+    margin-left: 35px;
+}
+input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 24px;
+    margin: 12px 14px;
+    cursor: pointer;
+    border: 1px solid black;
+}

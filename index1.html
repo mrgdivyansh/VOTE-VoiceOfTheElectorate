@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evoting System</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <div id="form">
+        <form action="main.html">
+        <fieldset>
+            <!-- <legend><h1>Voting Management System</h1></legend> -->
+
+            <label>Name:</label>&nbsp &nbsp
+            <input type="text" name="name" placeholder="Enter Your Name" required><br><br>
+
+            <label>Father Name:</label>&nbsp &nbsp
+            <input type="text" name="Father name" placeholder="Enter Your Father Name" required><br><br>
+            
+            <label>DOB:</label>&nbsp &nbsp
+            <input type="data" name="dob" placeholder="Date of birth" required><br><br>
+
+            <label>Gender:</label>&nbsp &nbsp
+            <input type="radio" name="gender" class="g"value="male">Male
+            <input type="radio" name="gender" class="g"value="female">Female
+            <br><br>
+
+            <label>Aadhar no.:</label>&nbsp &nbsp
+            <input type="number" name="cnic" placeholder="Enter Aadhar number"maxlength="15"><br><br>
+
+            <label>Political Parties:</label>&nbsp &nbsp
+                <select name="Political">
+                    <option value="Null"> Choose Political Party</option>
+                        <option value="PTI">PTI</option>
+                        <option value="PTI">MQM</option>
+                        <option value="PTI">PPP</option>
+                        <option value="PTI">PML</option>
+                </select><br>
+        </fieldset>
+        <input type="submit" name="submit" value="submit">
+    </div>
+</body>
+</html>
